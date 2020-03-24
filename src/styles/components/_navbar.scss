@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: space-evenly;
   background: white;
 }
 
@@ -9,4 +9,48 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-logo{
+  img {
+    
+    margin-right: 0px !important;
+    position: relative;
+    border-radius: 50%;
+    height: 45px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-logo{
+    img{
+      height: 40px;
+      width: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-logo{
+    img{
+      height: 60px;
+      width: auto;
+    }
+  }
+  .navbar-lewagon{
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1000px) { 
+  .navbar-lewagon {
+    justify-content: space-evenly;
+    font-size: larger;
+  }
+  .navbar-logo {
+    img {
+      height: 90px;
+      width: auto;
+    }
+  }
 }
