@@ -26,12 +26,29 @@
 
   }
   height: 500px;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 375px;
+  background-size: 500px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin: 0 auto;
 
 
 }
+
+@media only screen and (max-width: 400px) {
+  .banner-logo {
+    img{
+      width: 100%;
+    }
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-logo {
+    height: 550px;
+  }
+}
+
