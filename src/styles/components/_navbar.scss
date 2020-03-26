@@ -1,6 +1,8 @@
 .navbar-lewagon {
   justify-content: space-evenly;
-  background: white;
+  background: #F6F4F0;
+  font-size: 16px;
+
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -29,6 +31,9 @@
       width: auto;
     }
   }
+  .navbar-lewagon{
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -39,17 +44,17 @@
     }
   }
   .navbar-lewagon{
-    font-size: larger;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 1000px) { 
   .navbar-lewagon {
     justify-content: space-evenly;
-    font-size: larger;
+    font-size: 18px;
   }
   .navbar-logo {
     img {
-      height: 90px;
+      height: 72px;
       width: auto;
     }
   }

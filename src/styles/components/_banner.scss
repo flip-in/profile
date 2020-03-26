@@ -18,3 +18,20 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.banner-logo {
+
+  img{
+    height: 200px;
+
+  }
+  height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 375px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
