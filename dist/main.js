@@ -129,7 +129,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scripts_hello__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/hello */ \"./src/scripts/hello.js\");\n\n\n\nObject(_scripts_hello__WEBPACK_IMPORTED_MODULE_1__[\"hello\"])()\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scripts_hello__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/hello */ \"./src/scripts/hello.js\");\n\n\n\nObject(_scripts_hello__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ }),
 
@@ -137,11 +137,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /*!******************************!*\
   !*** ./src/scripts/hello.js ***!
   \******************************/
-/*! exports provided: hello */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hello\", function() { return hello; });\nconst hello = () => {\n  console.log(\"hello WOrld\")\n}\n\n\n\n//# sourceURL=webpack:///./src/scripts/hello.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst hello = () => {\n  console.log(\"hello WOrld\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (hello());\n\n\n//# sourceURL=webpack:///./src/scripts/hello.js?");
 
 /***/ }),
 
