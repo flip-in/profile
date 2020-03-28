@@ -15,8 +15,9 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-  "scripts": {
-    "gh-pages": "gh-pages -d dist -b gh-pages",
-    "deploy": "webpack && yarn gh-pages"
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
   }
 }

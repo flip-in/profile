@@ -1,4 +1,4 @@
 import './styles/style.scss';
-import {hello} from './scripts/hello'
+import hello from './scripts/hello';
 
-hello()
+hello();
