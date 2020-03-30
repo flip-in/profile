@@ -1,0 +1,22 @@
+#scrapit-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  #scrapit-banner{
+    img{
+      height: auto;
+      width: 100%;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
